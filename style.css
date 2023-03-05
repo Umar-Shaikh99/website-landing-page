@@ -3,6 +3,9 @@
     padding: 0px;
     margin: 0px;
 }
+h2, h3{
+    font-family: 'Eczar';
+}
 /* Navbar*/
 .navbar{
     display: flex;
@@ -55,16 +58,16 @@
     background-color: rgba(250, 239, 239,.7);
 }
 .get-touch input[type="submit"]{
-    padding: 0.7em;
+    padding: 0.1em;
     text-align: center;
     width: 210px;
     border-radius: 1px 13%;
-    border-color: #50ccff;
     cursor: pointer;
     background-color: #50ccff;
     color: white;
     font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: -3px;
 }
 .grid-container{
     display: grid;
