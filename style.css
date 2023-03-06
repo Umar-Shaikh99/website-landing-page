@@ -54,24 +54,25 @@ p{
     position: absolute;
     top: 89%;
     width: 100%;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
+    align-items: baseline;
     color: #333;
     padding: 1em;
     margin: auto;
     background-color: rgba(250, 239, 239,.7);
 }
 .get-touch input[type="submit"]{
-    padding: 0.1em;
-    text-align: center;
-    width: 210px;
-    border-radius: 1px 13%;
+    padding: 0.4em;
+    width: 15em;
     cursor: pointer;
     background-color: #50ccff;
-    color: white;
-    font-size: 13px;
-    letter-spacing: 1px;
-    margin-top: -3px;
+    border-radius: 1px 13%;
+    border-color: #50ccff;
+    color: whitesmoke;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
 }
 .grid-container{
     display: grid;
@@ -145,7 +146,6 @@ p{
 .brand{
     background: url("../image/logo/client_logo.png");
     background-color: rgba(250, 239, 239,.7);
-    margin-bottom: 5em;
     height: 5em;
 }
 .grid-footer{
@@ -172,8 +172,25 @@ p{
     color: whitesmoke;
 }
 .get-touch2{
-    border: 1px solid red;
     background-color: rgba(103, 100, 100, 0.5);
     grid-column: 1/span 4;
-    top: 0%;
+    position: relative;
+    top: -31%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 4em;
+    padding: 1em;   
+}
+ .get-touch2 input[type='submit']{
+    padding: 0.4em;
+    width: 15em;
+    cursor: pointer;
+    background-color: #50ccff;
+    border-radius: 1px 13%;
+    border-color: #50ccff;
+    color: whitesmoke;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
 }
