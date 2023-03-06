@@ -4,7 +4,10 @@
     margin: 0px;
 }
 h2, h3{
-    font-family: 'Eczar';
+    font-family: 'Eczar', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
 }
 /* Navbar*/
 .navbar{
@@ -29,6 +32,7 @@ h2, h3{
 }
 .navbar ul{
     margin-top: 2em;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar a{
     text-decoration: none;
@@ -127,6 +131,7 @@ h2, h3{
 .client{
     text-align: center;
     width: 20em;
+    margin: 2em;
 }
 .client span{
     font-size: 0.7em;
@@ -136,4 +141,39 @@ h2, h3{
 }
 .grid-testimonial-container span h2{
     margin-bottom: 1.7em;
+}
+.brand{
+    background: url("../image/logo/client_logo.png");
+    background-color: rgba(250, 239, 239,.7);
+    margin-bottom: 5em;
+    height: 5em;
+}
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 30em;
+    color: whitesmoke;
+}
+.footer-item1, .footer-item2, .footer-item3, .footer-item4{
+    width: 15em;
+    height: 12em;
+    text-align: start;
+    padding: 0.7em;
+}
+.footer-item2 .footer-item3, ul li{
+    list-style: none;
+    margin-bottom: 0.7em;
+} 
+.footer-item2 .footer-item3, a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.get-touch2{
+    border: 1px solid red;
+    background-color: rgba(103, 100, 100, 0.5);
+    grid-column: 1/span 4;
+    top: 0%;
 }
