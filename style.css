@@ -5,6 +5,7 @@
 }
 h2, h3{
     font-family: 'Eczar', sans-serif;
+    text-transform: capitalize;
 }
 p{
     font-family: 'Poppins', sans-serif;
@@ -37,6 +38,9 @@ p{
 .navbar a{
     text-decoration: none;
     color: #333;
+}
+.navbar a:hover{
+    color: rgb(240, 77, 77);
 }
 /* Hero Image*/
 .image-container{
@@ -160,6 +164,7 @@ p{
 .footer-item1, .footer-item2, .footer-item3, .footer-item4{
     width: 15em;
     height: 12em;
+    margin-top: -10em;
     text-align: start;
     padding: 0.7em;
 }
@@ -171,11 +176,18 @@ p{
     text-decoration: none;
     color: whitesmoke;
 }
+.footer-item1 ul{
+    display: inline-flex;
+}
+.footer-item1 li{
+    padding: 0.4em;
+    margin-top: 0.4em;
+}
 .get-touch2{
     background-color: rgba(103, 100, 100, 0.5);
     grid-column: 1/span 4;
     position: relative;
-    top: -31%;
+    top: -37%;
     display: inline-flex;
     justify-content: space-evenly;
     align-items: baseline;
