@@ -78,6 +78,7 @@ p{
     font-size: 0.8em;
     font-family: 'Poppins', sans-serif;
 }
+/* Company Intro */
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -118,6 +119,7 @@ p{
 .item1 .item2 .item3, p{
     line-height: 1.3em;
 }
+/* Company Branding Image */
 .grid-image-container{
     grid-template-columns: auto auto auto auto;
     text-align: center;
@@ -126,6 +128,7 @@ p{
 .grid-image-container img{
     height: 20em;
 }
+/* Client Testimonial */
 .grid-testimonial-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -147,11 +150,13 @@ p{
 .grid-testimonial-container span h2{
     margin-bottom: 1.7em;
 }
+/* Branding Banner */
 .brand{
     background: url("../image/logo/client_logo.png");
     background-color: rgba(250, 239, 239,.7);
     height: 5em;
 }
+/* Footer */
 .grid-footer{
     display: grid;
     grid-template-columns: auto auto auto auto;
